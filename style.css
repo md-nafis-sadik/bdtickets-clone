@@ -1,0 +1,24 @@
+/* Additional styles for the arrow icon */
+.relative {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Adjust arrow icon size and styles */
+.relative > div:first-child {
+    font-size: 24px; /* Adjust size as needed */
+    color: #6B7280; /* Adjust color as needed */
+    cursor: pointer;
+}
+
+/* Adjust divider height */
+.relative > div:nth-child(2) {
+    height: 32px; /* Adjust height as needed */
+}
+
+body{
+    background-image: url("./banner-web.png");
+    background-size: 1450px 650px;
+}
